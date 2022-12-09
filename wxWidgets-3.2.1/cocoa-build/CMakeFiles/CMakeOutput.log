@@ -1,0 +1,1991 @@
+The system is: Darwin - 21.6.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/3.25.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is AppleClang, found in "/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Compiling the OBJCXX compiler identification source file "CMakeOBJCXXCompilerId.mm" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the OBJCXX compiler identification source "CMakeOBJCXXCompilerId.mm" produced "CMakeOBJCXXCompilerId.o"
+
+The OBJCXX compiler identification is AppleClang, found in "/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/3.25.1/CompilerIdOBJCXX/CMakeOBJCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-eiLTuF
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_98d62/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_98d62.dir/build.make CMakeFiles/cmTC_98d62.dir/build
+Building C object CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10   -v -Wl,-v -MD -MT CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.10.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -faligned-alloc-unavailable -fobjc-msgsend-selector-stubs -target-sdk-version=13.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-eiLTuF -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin21.6.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_98d62
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98d62.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -o cmTC_98d62 
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 13.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o cmTC_98d62 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 18:42:42 Sep 11 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-eiLTuF]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_98d62/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_98d62.dir/build.make CMakeFiles/cmTC_98d62.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10   -v -Wl -v -MD -MT CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin21.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.10.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -faligned-alloc-unavailable -fobjc-msgsend-selector-stubs -target-sdk-version=13.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-eiLTuF -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin21.6.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_98d62]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98d62.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -o cmTC_98d62 ]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin21.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 13.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o cmTC_98d62 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.0.0] ==> ignore
+    arg [13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_98d62] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_98d62.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-hOd2RI
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b14f6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b14f6.dir/build.make CMakeFiles/cmTC_b14f6.dir/build
+Building CXX object CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.10.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -faligned-alloc-unavailable -fobjc-msgsend-selector-stubs -target-sdk-version=13.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-hOd2RI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin21.6.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_b14f6
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b14f6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b14f6 
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 13.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o cmTC_b14f6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 18:42:42 Sep 11 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-hOd2RI]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_b14f6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b14f6.dir/build.make CMakeFiles/cmTC_b14f6.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10   -v -Wl -v -MD -MT CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin21.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.10.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -faligned-alloc-unavailable -fobjc-msgsend-selector-stubs -target-sdk-version=13.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-hOd2RI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin21.6.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_b14f6]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b14f6.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b14f6 ]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin21.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 13.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o cmTC_b14f6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.0.0] ==> ignore
+    arg [13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b14f6] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_b14f6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks]
+
+
+Detecting OBJCXX compiler ABI info compiled with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-p42M9R
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ea3a5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ea3a5.dir/build.make CMakeFiles/cmTC_ea3a5.dir/build
+Building OBJCXX object CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -x objective-c++ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -MF CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o.d -o CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeOBJCXXCompilerABI.mm
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.10.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeOBJCXXCompilerABI.mm -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -faligned-alloc-unavailable -fobjc-msgsend-selector-stubs -target-sdk-version=13.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-p42M9R -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fobjc-runtime=macosx-10.10.0 -fobjc-exceptions -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -x objective-c++ /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeOBJCXXCompilerABI.mm
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin21.6.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking OBJCXX executable cmTC_ea3a5
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea3a5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -o cmTC_ea3a5 
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 13.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o cmTC_ea3a5 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 18:42:42 Sep 11 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/
+
+
+
+Parsed OBJCXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed OBJCXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-p42M9R]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_ea3a5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ea3a5.dir/build.make CMakeFiles/cmTC_ea3a5.dir/build]
+  ignore line: [Building OBJCXX object CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -x objective-c++ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10   -v -Wl -v -MD -MT CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -MF CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o.d -o CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -c /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeOBJCXXCompilerABI.mm]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin21.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.10.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeOBJCXXCompilerABI.mm -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -faligned-alloc-unavailable -fobjc-msgsend-selector-stubs -target-sdk-version=13.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-p42M9R -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fobjc-runtime=macosx-10.10.0 -fobjc-exceptions -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -x objective-c++ /Applications/CMake.app/Contents/share/cmake-3.25/Modules/CMakeOBJCXXCompilerABI.mm]
+  ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin21.6.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking OBJCXX executable cmTC_ea3a5]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea3a5.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -o cmTC_ea3a5 ]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin21.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 13.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -o cmTC_ea3a5 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.0.0] ==> ignore
+    arg [13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ea3a5] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_ea3a5.dir/CMakeOBJCXXCompilerABI.mm.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/System/Library/Frameworks]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-rlBrwA
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a4223/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a4223.dir/build.make CMakeFiles/cmTC_a4223.dir/build
+Building C object CMakeFiles/cmTC_a4223.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_a4223.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a4223.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a4223.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-rlBrwA/CheckIncludeFile.c
+Linking C executable cmTC_a4223
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4223.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a4223.dir/CheckIncludeFile.c.o -o cmTC_a4223 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-NAexBP
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b677b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b677b.dir/build.make CMakeFiles/cmTC_b677b.dir/build
+Building C object CMakeFiles/cmTC_b677b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_b677b.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_b677b.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_b677b.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-NAexBP/CheckIncludeFile.c
+Linking C executable cmTC_b677b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b677b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b677b.dir/CheckIncludeFile.c.o -o cmTC_b677b 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-TpSDwq
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ae4ad/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ae4ad.dir/build.make CMakeFiles/cmTC_ae4ad.dir/build
+Building C object CMakeFiles/cmTC_ae4ad.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_ae4ad.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_ae4ad.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_ae4ad.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-TpSDwq/CheckIncludeFile.c
+Linking C executable cmTC_ae4ad
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae4ad.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ae4ad.dir/CheckIncludeFile.c.o -o cmTC_ae4ad 
+
+
+
+Determining size of wchar_t passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Hxl9bo
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_65aed/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_65aed.dir/build.make CMakeFiles/cmTC_65aed.dir/build
+Building C object CMakeFiles/cmTC_65aed.dir/SIZEOF_WCHAR_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_65aed.dir/SIZEOF_WCHAR_T.c.o -MF CMakeFiles/cmTC_65aed.dir/SIZEOF_WCHAR_T.c.o.d -o CMakeFiles/cmTC_65aed.dir/SIZEOF_WCHAR_T.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Hxl9bo/SIZEOF_WCHAR_T.c
+Linking C executable cmTC_65aed
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65aed.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_65aed.dir/SIZEOF_WCHAR_T.c.o -o cmTC_65aed 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-GdnWm7
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_903db/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_903db.dir/build.make CMakeFiles/cmTC_903db.dir/build
+Building C object CMakeFiles/cmTC_903db.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_903db.dir/src.c.o -MF CMakeFiles/cmTC_903db.dir/src.c.o.d -o CMakeFiles/cmTC_903db.dir/src.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-GdnWm7/src.c
+Linking C executable cmTC_903db
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_903db.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_903db.dir/src.c.o -o cmTC_903db 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-DNn0fI
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d4994/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d4994.dir/build.make CMakeFiles/cmTC_d4994.dir/build
+Building C object CMakeFiles/cmTC_d4994.dir/STDC_HEADERS.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_d4994.dir/STDC_HEADERS.c.o -MF CMakeFiles/cmTC_d4994.dir/STDC_HEADERS.c.o.d -o CMakeFiles/cmTC_d4994.dir/STDC_HEADERS.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-DNn0fI/STDC_HEADERS.c
+Linking C executable cmTC_d4994
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4994.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d4994.dir/STDC_HEADERS.c.o -o cmTC_d4994 
+
+
+
+Performing C++ SOURCE FILE Test HAVE_VISIBILITY succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-SOUPzI
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8165c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8165c.dir/build.make CMakeFiles/cmTC_8165c.dir/build
+Building CXX object CMakeFiles/cmTC_8165c.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_VISIBILITY  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10   -fvisibility=hidden -std=gnu++11 -MD -MT CMakeFiles/cmTC_8165c.dir/src.cxx.o -MF CMakeFiles/cmTC_8165c.dir/src.cxx.o.d -o CMakeFiles/cmTC_8165c.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-SOUPzI/src.cxx
+Linking CXX executable cmTC_8165c
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8165c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8165c.dir/src.cxx.o -o cmTC_8165c 
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the va_copy exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-DUVZ9n
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_52179/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_52179.dir/build.make CMakeFiles/cmTC_52179.dir/build
+Building C object CMakeFiles/cmTC_52179.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_52179.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_52179.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_52179.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-DUVZ9n/CheckSymbolExists.c
+Linking C executable cmTC_52179
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52179.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_52179.dir/CheckSymbolExists.c.o -o cmTC_52179 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdarg.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef va_copy
+  return ((int*)(&va_copy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_STD_STRING_COMPARE succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-1CCAkZ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bf2a9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bf2a9.dir/build.make CMakeFiles/cmTC_bf2a9.dir/build
+Building CXX object CMakeFiles/cmTC_bf2a9.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_STD_STRING_COMPARE -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_bf2a9.dir/src.cxx.o -MF CMakeFiles/cmTC_bf2a9.dir/src.cxx.o.d -o CMakeFiles/cmTC_bf2a9.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-1CCAkZ/src.cxx
+Linking CXX executable cmTC_bf2a9
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf2a9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bf2a9.dir/src.cxx.o -o cmTC_bf2a9 
+
+
+Source file was:
+#include <string>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::string foo, bar;
+    foo.compare(bar);
+    foo.compare(1, 1, bar);
+    foo.compare(1, 1, bar, 1, 1);
+    foo.compare("");
+    foo.compare(1, 1, "");
+    foo.compare(1, 1, "", 2);
+return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_STD_WSTRING succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Ww5Q81
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7bfba/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7bfba.dir/build.make CMakeFiles/cmTC_7bfba.dir/build
+Building CXX object CMakeFiles/cmTC_7bfba.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_STD_WSTRING -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_7bfba.dir/src.cxx.o -MF CMakeFiles/cmTC_7bfba.dir/src.cxx.o.d -o CMakeFiles/cmTC_7bfba.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Ww5Q81/src.cxx
+Linking CXX executable cmTC_7bfba
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bfba.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7bfba.dir/src.cxx.o -o cmTC_7bfba 
+
+
+Source file was:
+#include <string>
+
+
+int main(int argc, char* argv[]) {
+ std::wstring s;
+return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_EXT_HASH_MAP succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-qOUYyk
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f4eb1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f4eb1.dir/build.make CMakeFiles/cmTC_f4eb1.dir/build
+Building CXX object CMakeFiles/cmTC_f4eb1.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_EXT_HASH_MAP -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_f4eb1.dir/src.cxx.o -MF CMakeFiles/cmTC_f4eb1.dir/src.cxx.o.d -o CMakeFiles/cmTC_f4eb1.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-qOUYyk/src.cxx
+In file included from /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-qOUYyk/src.cxx:1:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/ext/hash_map:215:5: warning: Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map> [-W#warnings]
+#   warning Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map>
+    ^
+In file included from /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-qOUYyk/src.cxx:2:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/ext/hash_set:204:5: warning: Use of the header <ext/hash_set> is deprecated.  Migrate to <unordered_set> [-W#warnings]
+#   warning Use of the header <ext/hash_set> is deprecated.  Migrate to <unordered_set>
+    ^
+2 warnings generated.
+Linking CXX executable cmTC_f4eb1
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4eb1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f4eb1.dir/src.cxx.o -o cmTC_f4eb1 
+
+
+Source file was:
+#include <ext/hash_map>
+#include <ext/hash_set>
+
+
+int main(int argc, char* argv[]) {
+ 
+    __gnu_cxx::hash_map<double*, char*, __gnu_cxx::hash<double*>, std::equal_to<double*> > test1;
+    __gnu_cxx::hash_set<char*, __gnu_cxx::hash<char*>, std::equal_to<char*> > test2;
+return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_STD_UNORDERED_MAP succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-fmxdDU
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_24333/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_24333.dir/build.make CMakeFiles/cmTC_24333.dir/build
+Building CXX object CMakeFiles/cmTC_24333.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_STD_UNORDERED_MAP -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_24333.dir/src.cxx.o -MF CMakeFiles/cmTC_24333.dir/src.cxx.o.d -o CMakeFiles/cmTC_24333.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-fmxdDU/src.cxx
+Linking CXX executable cmTC_24333
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24333.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_24333.dir/src.cxx.o -o cmTC_24333 
+
+
+Source file was:
+#include <unordered_map>
+#include <unordered_set>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::unordered_map<double*, char*> test1;
+    std::unordered_set<char*> test2;
+return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_ATOMIC_BUILTINS succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-g6rCBA
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3b169/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3b169.dir/build.make CMakeFiles/cmTC_3b169.dir/build
+Building C object CMakeFiles/cmTC_3b169.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_GCC_ATOMIC_BUILTINS -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_3b169.dir/src.c.o -MF CMakeFiles/cmTC_3b169.dir/src.c.o.d -o CMakeFiles/cmTC_3b169.dir/src.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-g6rCBA/src.c
+Linking C executable cmTC_3b169
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b169.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3b169.dir/src.c.o -o cmTC_3b169 
+
+
+Source file was:
+
+
+int main(int argc, char* argv[]) {
+ 
+    unsigned int value=0;
+    /* wxAtomicInc doesn't use return value here */
+    __sync_fetch_and_add(&value, 2);
+    __sync_sub_and_fetch(&value, 1);
+    /* but wxAtomicDec does, so mimic that: */
+    volatile unsigned int r2 = __sync_sub_and_fetch(&value, 1);
+return 0; }
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-FzTR94
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a8b34/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a8b34.dir/build.make CMakeFiles/cmTC_a8b34.dir/build
+Building C object CMakeFiles/cmTC_a8b34.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=sigaction -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_a8b34.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a8b34.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a8b34.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-FzTR94/CheckFunctionExists.c
+Linking C executable cmTC_a8b34
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8b34.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a8b34.dir/CheckFunctionExists.c.o -o cmTC_a8b34 
+
+
+
+Performing C++ SOURCE FILE Test wxTYPE_SA_HANDLER_IS_INT succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-MFhpgk
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_147ad/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_147ad.dir/build.make CMakeFiles/cmTC_147ad.dir/build
+Building CXX object CMakeFiles/cmTC_147ad.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxTYPE_SA_HANDLER_IS_INT -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_147ad.dir/src.cxx.o -MF CMakeFiles/cmTC_147ad.dir/src.cxx.o.d -o CMakeFiles/cmTC_147ad.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-MFhpgk/src.cxx
+Linking CXX executable cmTC_147ad
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_147ad.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_147ad.dir/src.cxx.o -o cmTC_147ad 
+
+
+Source file was:
+#include <signal.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+            extern void testSigHandler(int) { };
+            int foo() {
+            struct sigaction sa;
+            sa.sa_handler = testSigHandler;
+return 0; }
+
+Performing C++ SOURCE FILE Test wxHAVE_BACKTRACE succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-z9VVAV
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7e701/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7e701.dir/build.make CMakeFiles/cmTC_7e701.dir/build
+Building CXX object CMakeFiles/cmTC_7e701.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxHAVE_BACKTRACE -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_7e701.dir/src.cxx.o -MF CMakeFiles/cmTC_7e701.dir/src.cxx.o.d -o CMakeFiles/cmTC_7e701.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-z9VVAV/src.cxx
+Linking CXX executable cmTC_7e701
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e701.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7e701.dir/src.cxx.o -o cmTC_7e701 
+
+
+Source file was:
+#include <execinfo.h>
+
+
+int main(int argc, char* argv[]) {
+ 
+            void *trace[1];
+            char **messages;
+            backtrace(trace, 1);
+            messages = backtrace_symbols(trace, 1);
+return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXA_DEMANGLE succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-1xXIYL
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_05fb4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_05fb4.dir/build.make CMakeFiles/cmTC_05fb4.dir/build
+Building CXX object CMakeFiles/cmTC_05fb4.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXA_DEMANGLE -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_05fb4.dir/src.cxx.o -MF CMakeFiles/cmTC_05fb4.dir/src.cxx.o.d -o CMakeFiles/cmTC_05fb4.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-1xXIYL/src.cxx
+Linking CXX executable cmTC_05fb4
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05fb4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_05fb4.dir/src.cxx.o -o cmTC_05fb4 
+
+
+Source file was:
+#include <cxxabi.h>
+
+
+int main(int argc, char* argv[]) {
+ int rc;
+                 __cxxabiv1::__cxa_demangle("foo", 0, 0, &rc);
+return 0; }
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-rB376L
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3cd74/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3cd74.dir/build.make CMakeFiles/cmTC_3cd74.dir/build
+Building C object CMakeFiles/cmTC_3cd74.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=mkstemp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_3cd74.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_3cd74.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_3cd74.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-rB376L/CheckFunctionExists.c
+Linking C executable cmTC_3cd74
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cd74.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=mkstemp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3cd74.dir/CheckFunctionExists.c.o -o cmTC_3cd74 
+
+
+
+Determining if the function mktemp exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-ZYURdV
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_15bc3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_15bc3.dir/build.make CMakeFiles/cmTC_15bc3.dir/build
+Building C object CMakeFiles/cmTC_15bc3.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=mktemp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_15bc3.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_15bc3.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_15bc3.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-ZYURdV/CheckFunctionExists.c
+Linking C executable cmTC_15bc3
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15bc3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=mktemp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_15bc3.dir/CheckFunctionExists.c.o -o cmTC_15bc3 
+
+
+
+Performing C SOURCE FILE Test HAVE_STATVFS succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-kuuTBK
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5da24/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5da24.dir/build.make CMakeFiles/cmTC_5da24.dir/build
+Building C object CMakeFiles/cmTC_5da24.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_STATVFS -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_5da24.dir/src.c.o -MF CMakeFiles/cmTC_5da24.dir/src.c.o.d -o CMakeFiles/cmTC_5da24.dir/src.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-kuuTBK/src.c
+Linking C executable cmTC_5da24
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5da24.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5da24.dir/src.c.o -o cmTC_5da24 
+
+
+Source file was:
+
+
+int main(int argc, char* argv[]) {
+ 
+        return 0; }
+        #include <sys/statvfs.h>
+
+        int foo() {
+        long l;
+        struct statvfs fs;
+        statvfs("/", &fs);
+        l = fs.f_bsize;
+        l += fs.f_blocks;
+        l += fs.f_bavail;
+return 0; }
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-nDy5eB
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a4e95/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a4e95.dir/build.make CMakeFiles/cmTC_a4e95.dir/build
+Building C object CMakeFiles/cmTC_a4e95.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=fcntl -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_a4e95.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a4e95.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a4e95.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-nDy5eB/CheckFunctionExists.c
+Linking C executable cmTC_a4e95
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4e95.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a4e95.dir/CheckFunctionExists.c.o -o cmTC_a4e95 
+
+
+
+Determining if the function flock exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-BszL1g
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11511/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_11511.dir/build.make CMakeFiles/cmTC_11511.dir/build
+Building C object CMakeFiles/cmTC_11511.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=flock -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_11511.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_11511.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_11511.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-BszL1g/CheckFunctionExists.c
+Linking C executable cmTC_11511
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11511.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=flock -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_11511.dir/CheckFunctionExists.c.o -o cmTC_11511 
+
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-ogaU0i
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bfbd4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bfbd4.dir/build.make CMakeFiles/cmTC_bfbd4.dir/build
+Building C object CMakeFiles/cmTC_bfbd4.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=setenv -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_bfbd4.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_bfbd4.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_bfbd4.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-ogaU0i/CheckFunctionExists.c
+Linking C executable cmTC_bfbd4
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfbd4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setenv -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bfbd4.dir/CheckFunctionExists.c.o -o cmTC_bfbd4 
+
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-iS8TqA
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee96d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ee96d.dir/build.make CMakeFiles/cmTC_ee96d.dir/build
+Building C object CMakeFiles/cmTC_ee96d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=putenv -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_ee96d.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ee96d.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ee96d.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-iS8TqA/CheckFunctionExists.c
+Linking C executable cmTC_ee96d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee96d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=putenv -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ee96d.dir/CheckFunctionExists.c.o -o cmTC_ee96d 
+
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-DaupbK
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6a4de/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6a4de.dir/build.make CMakeFiles/cmTC_6a4de.dir/build
+Building C object CMakeFiles/cmTC_6a4de.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=unsetenv -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_6a4de.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_6a4de.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_6a4de.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-DaupbK/CheckFunctionExists.c
+Linking C executable cmTC_6a4de
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a4de.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=unsetenv -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6a4de.dir/CheckFunctionExists.c.o -o cmTC_6a4de 
+
+
+
+Determining if the uname exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-0KkynT
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_204fd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_204fd.dir/build.make CMakeFiles/cmTC_204fd.dir/build
+Building C object CMakeFiles/cmTC_204fd.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_204fd.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_204fd.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_204fd.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-0KkynT/CheckSymbolExists.c
+Linking C executable cmTC_204fd
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_204fd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_204fd.dir/CheckSymbolExists.c.o -o cmTC_204fd 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/utsname.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uname
+  return ((int*)(&uname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-QY8uHA
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7c8c2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7c8c2.dir/build.make CMakeFiles/cmTC_7c8c2.dir/build
+Building C object CMakeFiles/cmTC_7c8c2.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=gethostname -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_7c8c2.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_7c8c2.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_7c8c2.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-QY8uHA/CheckFunctionExists.c
+Linking C executable cmTC_7c8c2
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c8c2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostname -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7c8c2.dir/CheckFunctionExists.c.o -o cmTC_7c8c2 
+
+
+
+Determining if the function strtok_r exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-918lzP
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_08cb1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_08cb1.dir/build.make CMakeFiles/cmTC_08cb1.dir/build
+Building C object CMakeFiles/cmTC_08cb1.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_REENTRANT -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=strtok_r -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_08cb1.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_08cb1.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_08cb1.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-918lzP/CheckFunctionExists.c
+Linking C executable cmTC_08cb1
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08cb1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtok_r -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_08cb1.dir/CheckFunctionExists.c.o -o cmTC_08cb1 
+
+
+
+Determining if the function fdopen exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-s611Xp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_24814/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_24814.dir/build.make CMakeFiles/cmTC_24814.dir/build
+Building C object CMakeFiles/cmTC_24814.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=fdopen -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_24814.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_24814.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_24814.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-s611Xp/CheckFunctionExists.c
+Linking C executable cmTC_24814
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24814.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fdopen -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_24814.dir/CheckFunctionExists.c.o -o cmTC_24814 
+
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-gFix2C
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f145a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f145a.dir/build.make CMakeFiles/cmTC_f145a.dir/build
+Building C object CMakeFiles/cmTC_f145a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=sysconf -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_f145a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_f145a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_f145a.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-gFix2C/CheckFunctionExists.c
+Linking C executable cmTC_f145a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f145a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sysconf -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f145a.dir/CheckFunctionExists.c.o -o cmTC_f145a 
+
+
+
+Determining if the getpwuid_r exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-JNWGCv
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1f1c3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1f1c3.dir/build.make CMakeFiles/cmTC_1f1c3.dir/build
+Building C object CMakeFiles/cmTC_1f1c3.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_REENTRANT -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_1f1c3.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1f1c3.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1f1c3.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-JNWGCv/CheckSymbolExists.c
+Linking C executable cmTC_1f1c3
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f1c3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1f1c3.dir/CheckSymbolExists.c.o -o cmTC_1f1c3 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <pwd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpwuid_r
+  return ((int*)(&getpwuid_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getgrgid_r exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-N7lvqk
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8ad95/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8ad95.dir/build.make CMakeFiles/cmTC_8ad95.dir/build
+Building C object CMakeFiles/cmTC_8ad95.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_REENTRANT -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_8ad95.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_8ad95.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_8ad95.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-N7lvqk/CheckSymbolExists.c
+Linking C executable cmTC_8ad95
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ad95.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8ad95.dir/CheckSymbolExists.c.o -o cmTC_8ad95 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <grp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getgrgid_r
+  return ((int*)(&getgrgid_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test WX_SOCKLEN_T_IS_SOCKLEN_T succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-cXFws5
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8a9ee/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8a9ee.dir/build.make CMakeFiles/cmTC_8a9ee.dir/build
+Building CXX object CMakeFiles/cmTC_8a9ee.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DWX_SOCKLEN_T_IS_SOCKLEN_T -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_8a9ee.dir/src.cxx.o -MF CMakeFiles/cmTC_8a9ee.dir/src.cxx.o.d -o CMakeFiles/cmTC_8a9ee.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-cXFws5/src.cxx
+Linking CXX executable cmTC_8a9ee
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a9ee.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8a9ee.dir/src.cxx.o -o cmTC_8a9ee 
+
+
+Source file was:
+#include <sys/types.h>
+#include <sys/socket.h>
+
+
+int main(int argc, char* argv[]) {
+ socklen_t len;
+        getsockname(0, 0, &len);
+return 0; }
+
+Performing C++ SOURCE FILE Test SOCKOPTLEN_T_IS_SOCKLEN_T succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-x1KBZZ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_84e38/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_84e38.dir/build.make CMakeFiles/cmTC_84e38.dir/build
+Building CXX object CMakeFiles/cmTC_84e38.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DSOCKOPTLEN_T_IS_SOCKLEN_T -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_84e38.dir/src.cxx.o -MF CMakeFiles/cmTC_84e38.dir/src.cxx.o.d -o CMakeFiles/cmTC_84e38.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-x1KBZZ/src.cxx
+Linking CXX executable cmTC_84e38
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84e38.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_84e38.dir/src.cxx.o -o cmTC_84e38 
+
+
+Source file was:
+#include <sys/types.h>
+#include <sys/socket.h>
+
+
+int main(int argc, char* argv[]) {
+ socklen_t len;
+        getsockopt(0, 0, 0, 0, &len);
+return 0; }
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-lictDM
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_50a1e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_50a1e.dir/build.make CMakeFiles/cmTC_50a1e.dir/build
+Building C object CMakeFiles/cmTC_50a1e.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_50a1e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_50a1e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_50a1e.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-lictDM/CheckSymbolExists.c
+Linking C executable cmTC_50a1e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50a1e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_50a1e.dir/CheckSymbolExists.c.o -o cmTC_50a1e 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netdb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getservbyname exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-8mjhTJ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_77105/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_77105.dir/build.make CMakeFiles/cmTC_77105.dir/build
+Building C object CMakeFiles/cmTC_77105.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_77105.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_77105.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_77105.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-8mjhTJ/CheckSymbolExists.c
+Linking C executable cmTC_77105
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77105.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_77105.dir/CheckSymbolExists.c.o -o cmTC_77105 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netdb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyname
+  return ((int*)(&getservbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_aton exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-u8AW4Q
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95994/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_95994.dir/build.make CMakeFiles/cmTC_95994.dir/build
+Building C object CMakeFiles/cmTC_95994.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_95994.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_95994.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_95994.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-u8AW4Q/CheckSymbolExists.c
+Linking C executable cmTC_95994
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95994.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_95994.dir/CheckSymbolExists.c.o -o cmTC_95994 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <arpa/inet.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_aton
+  return ((int*)(&inet_aton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_addr exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-msHY0u
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c86f9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c86f9.dir/build.make CMakeFiles/cmTC_c86f9.dir/build
+Building C object CMakeFiles/cmTC_c86f9.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_c86f9.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c86f9.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c86f9.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-msHY0u/CheckSymbolExists.c
+Linking C executable cmTC_c86f9
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c86f9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c86f9.dir/CheckSymbolExists.c.o -o cmTC_c86f9 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <arpa/inet.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_addr
+  return ((int*)(&inet_addr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test wxHAVE_PTHREAD_CLEANUP succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-90Xv90
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_65a91/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_65a91.dir/build.make CMakeFiles/cmTC_65a91.dir/build
+Building CXX object CMakeFiles/cmTC_65a91.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DwxHAVE_PTHREAD_CLEANUP  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_65a91.dir/src.cxx.o -MF CMakeFiles/cmTC_65a91.dir/src.cxx.o.d -o CMakeFiles/cmTC_65a91.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-90Xv90/src.cxx
+Linking CXX executable cmTC_65a91
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65a91.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_65a91.dir/src.cxx.o -o cmTC_65a91  -lpthread 
+
+
+Source file was:
+#include <pthread.h>
+void ThreadCleanupFunc(void *p) { };
+
+int main(int argc, char* argv[]) {
+ 
+        void *p;
+        pthread_cleanup_push(ThreadCleanupFunc, p);
+        pthread_cleanup_pop(0);
+return 0; }
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_MUTEXATTR_T succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Bamp53
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6ed16/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6ed16.dir/build.make CMakeFiles/cmTC_6ed16.dir/build
+Building C object CMakeFiles/cmTC_6ed16.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_PTHREAD_MUTEXATTR_T  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_6ed16.dir/src.c.o -MF CMakeFiles/cmTC_6ed16.dir/src.c.o.d -o CMakeFiles/cmTC_6ed16.dir/src.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Bamp53/src.c
+Linking C executable cmTC_6ed16
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ed16.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6ed16.dir/src.c.o -o cmTC_6ed16  -lpthread 
+
+
+Source file was:
+#include <pthread.h>
+
+
+int main(int argc, char* argv[]) {
+ pthread_mutexattr_t attr;
+        pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+return 0; }
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_MUTEXATTR_SETTYPE_DECL succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-c7UExV
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fb804/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fb804.dir/build.make CMakeFiles/cmTC_fb804.dir/build
+Building C object CMakeFiles/cmTC_fb804.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_PTHREAD_MUTEXATTR_SETTYPE_DECL  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_fb804.dir/src.c.o -MF CMakeFiles/cmTC_fb804.dir/src.c.o.d -o CMakeFiles/cmTC_fb804.dir/src.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-c7UExV/src.c
+Linking C executable cmTC_fb804
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb804.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fb804.dir/src.c.o -o cmTC_fb804  -lpthread 
+
+
+Source file was:
+#include <pthread.h>
+
+
+int main(int argc, char* argv[]) {
+ pthread_mutexattr_t attr;
+            pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+return 0; }
+
+Performing C SOURCE FILE Test HAVE___THREAD_KEYWORD succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-TYOcps
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_25f49/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_25f49.dir/build.make CMakeFiles/cmTC_25f49.dir/build
+Building C object CMakeFiles/cmTC_25f49.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE___THREAD_KEYWORD  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_25f49.dir/src.c.o -MF CMakeFiles/cmTC_25f49.dir/src.c.o.d -o CMakeFiles/cmTC_25f49.dir/src.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-TYOcps/src.c
+Linking C executable cmTC_25f49
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25f49.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_25f49.dir/src.c.o -o cmTC_25f49  -lpthread 
+
+
+Source file was:
+#include <pthread.h>
+
+
+int main(int argc, char* argv[]) {
+ 
+            static __thread int n = 0;
+            static __thread int *p = 0;
+return 0; }
+
+Determining if the localtime_r exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-i3a1mp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_46e69/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_46e69.dir/build.make CMakeFiles/cmTC_46e69.dir/build
+Building C object CMakeFiles/cmTC_46e69.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_46e69.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_46e69.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_46e69.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-i3a1mp/CheckSymbolExists.c
+Linking C executable cmTC_46e69
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46e69.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_46e69.dir/CheckSymbolExists.c.o -o cmTC_46e69 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localtime_r
+  return ((int*)(&localtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gmtime_r exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-hfO7VO
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2246a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2246a.dir/build.make CMakeFiles/cmTC_2246a.dir/build
+Building C object CMakeFiles/cmTC_2246a.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_2246a.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_2246a.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2246a.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-hfO7VO/CheckSymbolExists.c
+Linking C executable cmTC_2246a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2246a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2246a.dir/CheckSymbolExists.c.o -o cmTC_2246a 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gmtime_r
+  return ((int*)(&gmtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test wxSIZE_T_IS_NOT_UINT succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-SjyLF7
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_90556/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_90556.dir/build.make CMakeFiles/cmTC_90556.dir/build
+Building CXX object CMakeFiles/cmTC_90556.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxSIZE_T_IS_NOT_UINT -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_90556.dir/src.cxx.o -MF CMakeFiles/cmTC_90556.dir/src.cxx.o.d -o CMakeFiles/cmTC_90556.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-SjyLF7/src.cxx
+Linking CXX executable cmTC_90556
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90556.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_90556.dir/src.cxx.o -o cmTC_90556 
+
+
+Source file was:
+#include <stddef.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+
+            struct Foo { void foo(size_t); void foo(unsigned int); };
+
+            int bar() {
+return 0; }
+
+Performing C++ SOURCE FILE Test wxWCHAR_T_IS_REAL_TYPE succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-JwJOIV
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_57dfd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_57dfd.dir/build.make CMakeFiles/cmTC_57dfd.dir/build
+Building CXX object CMakeFiles/cmTC_57dfd.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX -DwxWCHAR_T_IS_REAL_TYPE  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_57dfd.dir/src.cxx.o -MF CMakeFiles/cmTC_57dfd.dir/src.cxx.o.d -o CMakeFiles/cmTC_57dfd.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-JwJOIV/src.cxx
+Linking CXX executable cmTC_57dfd
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57dfd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_57dfd.dir/src.cxx.o -o cmTC_57dfd 
+
+
+Source file was:
+#include <wchar.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+
+            struct Foo { void foo(wchar_t);
+                         void foo(unsigned short);
+                         void foo(unsigned int);
+                         void foo(unsigned long); };
+
+            int bar() {
+return 0; }
+
+Performing C SOURCE FILE Test HAVE_PW_GECOS succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-dbHnFV
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_94e9d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_94e9d.dir/build.make CMakeFiles/cmTC_94e9d.dir/build
+Building C object CMakeFiles/cmTC_94e9d.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_PW_GECOS -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_94e9d.dir/src.c.o -MF CMakeFiles/cmTC_94e9d.dir/src.c.o.d -o CMakeFiles/cmTC_94e9d.dir/src.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-dbHnFV/src.c
+Linking C executable cmTC_94e9d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94e9d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_94e9d.dir/src.c.o -o cmTC_94e9d 
+
+
+Source file was:
+
+#include <pwd.h>
+
+int main()
+{
+  (void)sizeof(((struct passwd *)0)->pw_gecos);
+  return 0;
+}
+
+
+Determining if the wcsftime exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-9AZr4v
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_19e93/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_19e93.dir/build.make CMakeFiles/cmTC_19e93.dir/build
+Building C object CMakeFiles/cmTC_19e93.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_19e93.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_19e93.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_19e93.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-9AZr4v/CheckSymbolExists.c
+Linking C executable cmTC_19e93
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19e93.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_19e93.dir/CheckSymbolExists.c.o -o cmTC_19e93 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsftime
+  return ((int*)(&wcsftime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wprintf exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-4P86ZV
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5b2e4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5b2e4.dir/build.make CMakeFiles/cmTC_5b2e4.dir/build
+Building C object CMakeFiles/cmTC_5b2e4.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_5b2e4.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5b2e4.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5b2e4.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-4P86ZV/CheckSymbolExists.c
+Linking C executable cmTC_5b2e4
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b2e4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5b2e4.dir/CheckSymbolExists.c.o -o cmTC_5b2e4 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wprintf
+  return ((int*)(&wprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fputws exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-E35lCK
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dbe0e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dbe0e.dir/build.make CMakeFiles/cmTC_dbe0e.dir/build
+Building C object CMakeFiles/cmTC_dbe0e.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_dbe0e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_dbe0e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_dbe0e.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-E35lCK/CheckSymbolExists.c
+Linking C executable cmTC_dbe0e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbe0e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dbe0e.dir/CheckSymbolExists.c.o -o cmTC_dbe0e 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fputws
+  return ((int*)(&fputws))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vswprintf exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-KfXrdi
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3220e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3220e.dir/build.make CMakeFiles/cmTC_3220e.dir/build
+Building C object CMakeFiles/cmTC_3220e.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_3220e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_3220e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_3220e.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-KfXrdi/CheckSymbolExists.c
+Linking C executable cmTC_3220e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3220e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3220e.dir/CheckSymbolExists.c.o -o cmTC_3220e 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vswprintf
+  return ((int*)(&vswprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vswscanf exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-iLOIBd
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_50428/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_50428.dir/build.make CMakeFiles/cmTC_50428.dir/build
+Building C object CMakeFiles/cmTC_50428.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_50428.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_50428.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_50428.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-iLOIBd/CheckSymbolExists.c
+Linking C executable cmTC_50428
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50428.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_50428.dir/CheckSymbolExists.c.o -o cmTC_50428 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vswscanf
+  return ((int*)(&vswscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsdup exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-s1eBvF
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1db9a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1db9a.dir/build.make CMakeFiles/cmTC_1db9a.dir/build
+Building C object CMakeFiles/cmTC_1db9a.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_1db9a.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1db9a.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1db9a.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-s1eBvF/CheckSymbolExists.c
+Linking C executable cmTC_1db9a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1db9a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1db9a.dir/CheckSymbolExists.c.o -o cmTC_1db9a 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsdup
+  return ((int*)(&wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsnlen exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-zrnbhe
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9561c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9561c.dir/build.make CMakeFiles/cmTC_9561c.dir/build
+Building C object CMakeFiles/cmTC_9561c.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_9561c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_9561c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9561c.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-zrnbhe/CheckSymbolExists.c
+Linking C executable cmTC_9561c
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9561c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9561c.dir/CheckSymbolExists.c.o -o cmTC_9561c 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsnlen
+  return ((int*)(&wcsnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscasecmp exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-UOrEgD
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5b0a8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5b0a8.dir/build.make CMakeFiles/cmTC_5b0a8.dir/build
+Building C object CMakeFiles/cmTC_5b0a8.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_5b0a8.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5b0a8.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5b0a8.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-UOrEgD/CheckSymbolExists.c
+Linking C executable cmTC_5b0a8
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b0a8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5b0a8.dir/CheckSymbolExists.c.o -o cmTC_5b0a8 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscasecmp
+  return ((int*)(&wcscasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncasecmp exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-r6ugVn
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_01da9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_01da9.dir/build.make CMakeFiles/cmTC_01da9.dir/build
+Building C object CMakeFiles/cmTC_01da9.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_01da9.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_01da9.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_01da9.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-r6ugVn/CheckSymbolExists.c
+Linking C executable cmTC_01da9
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01da9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_01da9.dir/CheckSymbolExists.c.o -o cmTC_01da9 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncasecmp
+  return ((int*)(&wcsncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcstoull exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-L14y6z
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_24bc6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_24bc6.dir/build.make CMakeFiles/cmTC_24bc6.dir/build
+Building C object CMakeFiles/cmTC_24bc6.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_24bc6.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_24bc6.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_24bc6.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-L14y6z/CheckSymbolExists.c
+Linking C executable cmTC_24bc6
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24bc6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_24bc6.dir/CheckSymbolExists.c.o -o cmTC_24bc6 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcstoull
+  return ((int*)(&wcstoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslen exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-HMaIyJ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2578e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2578e.dir/build.make CMakeFiles/cmTC_2578e.dir/build
+Building C object CMakeFiles/cmTC_2578e.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_2578e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_2578e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2578e.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-HMaIyJ/CheckSymbolExists.c
+Linking C executable cmTC_2578e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2578e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2578e.dir/CheckSymbolExists.c.o -o cmTC_2578e 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslen
+  return ((int*)(&wcslen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function fsync exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-yMSJQY
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_24250/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_24250.dir/build.make CMakeFiles/cmTC_24250.dir/build
+Building C object CMakeFiles/cmTC_24250.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=fsync -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_24250.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_24250.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_24250.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-yMSJQY/CheckFunctionExists.c
+Linking C executable cmTC_24250
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24250.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fsync -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_24250.dir/CheckFunctionExists.c.o -o cmTC_24250 
+
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-RBtihe
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7c31b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7c31b.dir/build.make CMakeFiles/cmTC_7c31b.dir/build
+Building C object CMakeFiles/cmTC_7c31b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=snprintf -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_7c31b.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_7c31b.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_7c31b.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-RBtihe/CheckFunctionExists.c
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-RBtihe/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'snprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS snprintf
+                              ^
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-RBtihe/CheckFunctionExists.c:7:3: note: 'snprintf' is a builtin with type 'int (char *, unsigned long, const char *, ...)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS snprintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_7c31b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c31b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snprintf -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7c31b.dir/CheckFunctionExists.c.o -o cmTC_7c31b 
+
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-zmdPdX
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ac276/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ac276.dir/build.make CMakeFiles/cmTC_ac276.dir/build
+Building C object CMakeFiles/cmTC_ac276.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=vsnprintf -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_ac276.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ac276.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ac276.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-zmdPdX/CheckFunctionExists.c
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-zmdPdX/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-zmdPdX/CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned long, const char *, __builtin_va_list)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_ac276
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac276.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ac276.dir/CheckFunctionExists.c.o -o cmTC_ac276 
+
+
+
+Determining if the function strnlen exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-mTrvZD
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5d7b7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5d7b7.dir/build.make CMakeFiles/cmTC_5d7b7.dir/build
+Building C object CMakeFiles/cmTC_5d7b7.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=strnlen -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_5d7b7.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_5d7b7.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_5d7b7.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-mTrvZD/CheckFunctionExists.c
+Linking C executable cmTC_5d7b7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d7b7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strnlen -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5d7b7.dir/CheckFunctionExists.c.o -o cmTC_5d7b7 
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-nncrAQ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_32ed3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_32ed3.dir/build.make CMakeFiles/cmTC_32ed3.dir/build
+Building C object CMakeFiles/cmTC_32ed3.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=strtoull -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_32ed3.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_32ed3.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_32ed3.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-nncrAQ/CheckFunctionExists.c
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-nncrAQ/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoull' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoull
+                              ^
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-nncrAQ/CheckFunctionExists.c:7:3: note: 'strtoull' is a builtin with type 'unsigned long long (const char *, char **, int)'
+<command line>:5:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoull
+                              ^
+1 warning generated.
+Linking C executable cmTC_32ed3
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32ed3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoull -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_32ed3.dir/CheckFunctionExists.c.o -o cmTC_32ed3 
+
+
+
+Determining if the function setpriority exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-HJlh3O
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_509c6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_509c6.dir/build.make CMakeFiles/cmTC_509c6.dir/build
+Building C object CMakeFiles/cmTC_509c6.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=setpriority -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_509c6.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_509c6.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_509c6.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-HJlh3O/CheckFunctionExists.c
+Linking C executable cmTC_509c6
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_509c6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setpriority -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_509c6.dir/CheckFunctionExists.c.o -o cmTC_509c6 
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Qt3gIS
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dc880/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dc880.dir/build.make CMakeFiles/cmTC_dc880.dir/build
+Building C object CMakeFiles/cmTC_dc880.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -DCHECK_FUNCTION_EXISTS=gettimeofday -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_dc880.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_dc880.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_dc880.dir/CheckFunctionExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Qt3gIS/CheckFunctionExists.c
+Linking C executable cmTC_dc880
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc880.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettimeofday -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dc880.dir/CheckFunctionExists.c.o -o cmTC_dc880 
+
+
+
+Determining if the include file type_traits exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-q5M5lc
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c97a7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c97a7.dir/build.make CMakeFiles/cmTC_c97a7.dir/build
+Building CXX object CMakeFiles/cmTC_c97a7.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_c97a7.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_c97a7.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_c97a7.dir/CheckIncludeFile.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-q5M5lc/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c97a7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c97a7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c97a7.dir/CheckIncludeFile.cxx.o -o cmTC_c97a7 
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-7d2cU0
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b2a60/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b2a60.dir/build.make CMakeFiles/cmTC_b2a60.dir/build
+Building C object CMakeFiles/cmTC_b2a60.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_b2a60.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_b2a60.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_b2a60.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-7d2cU0/CheckIncludeFile.c
+Linking C executable cmTC_b2a60
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2a60.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b2a60.dir/CheckIncludeFile.c.o -o cmTC_b2a60 
+
+
+
+Determining if the include file langinfo.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-fPQ0K5
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_765bb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_765bb.dir/build.make CMakeFiles/cmTC_765bb.dir/build
+Building C object CMakeFiles/cmTC_765bb.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_765bb.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_765bb.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_765bb.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-fPQ0K5/CheckIncludeFile.c
+Linking C executable cmTC_765bb
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_765bb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_765bb.dir/CheckIncludeFile.c.o -o cmTC_765bb 
+
+
+
+Determining if the include file sched.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-gQYNAN
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_39468/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_39468.dir/build.make CMakeFiles/cmTC_39468.dir/build
+Building C object CMakeFiles/cmTC_39468.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_39468.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_39468.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_39468.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-gQYNAN/CheckIncludeFile.c
+Linking C executable cmTC_39468
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39468.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_39468.dir/CheckIncludeFile.c.o -o cmTC_39468 
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-GL7pcs
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8d06b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8d06b.dir/build.make CMakeFiles/cmTC_8d06b.dir/build
+Building C object CMakeFiles/cmTC_8d06b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_8d06b.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_8d06b.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_8d06b.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-GL7pcs/CheckIncludeFile.c
+Linking C executable cmTC_8d06b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d06b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8d06b.dir/CheckIncludeFile.c.o -o cmTC_8d06b 
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-xzDX7X
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4d80d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4d80d.dir/build.make CMakeFiles/cmTC_4d80d.dir/build
+Building C object CMakeFiles/cmTC_4d80d.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_4d80d.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_4d80d.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4d80d.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-xzDX7X/CheckIncludeFile.c
+Linking C executable cmTC_4d80d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d80d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4d80d.dir/CheckIncludeFile.c.o -o cmTC_4d80d 
+
+
+
+Performing C++ SOURCE FILE Test wxTEST_TZ_timezone succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-8bItYn
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_770cb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_770cb.dir/build.make CMakeFiles/cmTC_770cb.dir/build
+Building CXX object CMakeFiles/cmTC_770cb.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxTEST_TZ_timezone -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_770cb.dir/src.cxx.o -MF CMakeFiles/cmTC_770cb.dir/src.cxx.o.d -o CMakeFiles/cmTC_770cb.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-8bItYn/src.cxx
+Linking CXX executable cmTC_770cb
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_770cb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_770cb.dir/src.cxx.o -o cmTC_770cb 
+
+
+Source file was:
+#include <time.h>
+
+
+int main(int argc, char* argv[]) {
+ 
+            int tz;
+            tz = timezone;
+return 0; }
+
+Performing C SOURCE FILE Test WX_GMTOFF_IN_TM succeeded with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-t6AjAB
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f1e6b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f1e6b.dir/build.make CMakeFiles/cmTC_f1e6b.dir/build
+Building C object CMakeFiles/cmTC_f1e6b.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DWX_GMTOFF_IN_TM -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_f1e6b.dir/src.c.o -MF CMakeFiles/cmTC_f1e6b.dir/src.c.o.d -o CMakeFiles/cmTC_f1e6b.dir/src.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-t6AjAB/src.c
+Linking C executable cmTC_f1e6b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1e6b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f1e6b.dir/src.c.o -o cmTC_f1e6b 
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tm_gmtoff);
+  return 0;
+}
+
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Mj5fp3
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a885e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a885e.dir/build.make CMakeFiles/cmTC_a885e.dir/build
+Building C object CMakeFiles/cmTC_a885e.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_a885e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_a885e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_a885e.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Mj5fp3/CheckSymbolExists.c
+Linking C executable cmTC_a885e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a885e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a885e.dir/CheckSymbolExists.c.o -o cmTC_a885e 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dladdr exist passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-b3X7nP
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8983b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8983b.dir/build.make CMakeFiles/cmTC_8983b.dir/build
+Building C object CMakeFiles/cmTC_8983b.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_8983b.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_8983b.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_8983b.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-b3X7nP/CheckSymbolExists.c
+Linking C executable cmTC_8983b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8983b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8983b.dir/CheckSymbolExists.c.o -o cmTC_8983b 
+
+
+File CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-hVNrwS
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9f06e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9f06e.dir/build.make CMakeFiles/cmTC_9f06e.dir/build
+Building C object CMakeFiles/cmTC_9f06e.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_9f06e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_9f06e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_9f06e.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-hVNrwS/CheckIncludeFile.c
+Linking C executable cmTC_9f06e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f06e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9f06e.dir/CheckIncludeFile.c.o -o cmTC_9f06e 
+
+
+
+Determining if the include file sys/event.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-fEaEWa
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b21c7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b21c7.dir/build.make CMakeFiles/cmTC_b21c7.dir/build
+Building C object CMakeFiles/cmTC_b21c7.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_b21c7.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_b21c7.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_b21c7.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-fEaEWa/CheckIncludeFile.c
+Linking C executable cmTC_b21c7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b21c7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b21c7.dir/CheckIncludeFile.c.o -o cmTC_b21c7 
+
+
+
+Determining if the include file xlocale.h exists passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-1B2S05
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4dd9f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4dd9f.dir/build.make CMakeFiles/cmTC_4dd9f.dir/build
+Building C object CMakeFiles/cmTC_4dd9f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_4dd9f.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_4dd9f.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4dd9f.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-1B2S05/CheckIncludeFile.c
+Linking C executable cmTC_4dd9f
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dd9f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4dd9f.dir/CheckIncludeFile.c.o -o cmTC_4dd9f 
+
+
+
+Determining size of locale_t passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-3b0vub
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_39698/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_39698.dir/build.make CMakeFiles/cmTC_39698.dir/build
+Building C object CMakeFiles/cmTC_39698.dir/LOCALE_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_39698.dir/LOCALE_T.c.o -MF CMakeFiles/cmTC_39698.dir/LOCALE_T.c.o.d -o CMakeFiles/cmTC_39698.dir/LOCALE_T.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-3b0vub/LOCALE_T.c
+Linking C executable cmTC_39698
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39698.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_39698.dir/LOCALE_T.c.o -o cmTC_39698 
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-04aVfI
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_589e9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_589e9.dir/build.make CMakeFiles/cmTC_589e9.dir/build
+Building C object CMakeFiles/cmTC_589e9.dir/SIZEOF_SIZE_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_589e9.dir/SIZEOF_SIZE_T.c.o -MF CMakeFiles/cmTC_589e9.dir/SIZEOF_SIZE_T.c.o.d -o CMakeFiles/cmTC_589e9.dir/SIZEOF_SIZE_T.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-04aVfI/SIZEOF_SIZE_T.c
+Linking C executable cmTC_589e9
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_589e9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_589e9.dir/SIZEOF_SIZE_T.c.o -o cmTC_589e9 
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-LQw4Aj
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fd1b6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fd1b6.dir/build.make CMakeFiles/cmTC_fd1b6.dir/build
+Building C object CMakeFiles/cmTC_fd1b6.dir/SIZEOF_INT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_fd1b6.dir/SIZEOF_INT.c.o -MF CMakeFiles/cmTC_fd1b6.dir/SIZEOF_INT.c.o.d -o CMakeFiles/cmTC_fd1b6.dir/SIZEOF_INT.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-LQw4Aj/SIZEOF_INT.c
+Linking C executable cmTC_fd1b6
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd1b6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fd1b6.dir/SIZEOF_INT.c.o -o cmTC_fd1b6 
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Zj7Uiv
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_70c05/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_70c05.dir/build.make CMakeFiles/cmTC_70c05.dir/build
+Building C object CMakeFiles/cmTC_70c05.dir/SIZEOF_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_70c05.dir/SIZEOF_LONG.c.o -MF CMakeFiles/cmTC_70c05.dir/SIZEOF_LONG.c.o.d -o CMakeFiles/cmTC_70c05.dir/SIZEOF_LONG.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Zj7Uiv/SIZEOF_LONG.c
+Linking C executable cmTC_70c05
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70c05.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_70c05.dir/SIZEOF_LONG.c.o -o cmTC_70c05 
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-8kIo2d
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_649ce/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_649ce.dir/build.make CMakeFiles/cmTC_649ce.dir/build
+Building C object CMakeFiles/cmTC_649ce.dir/SIZEOF_SHORT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_649ce.dir/SIZEOF_SHORT.c.o -MF CMakeFiles/cmTC_649ce.dir/SIZEOF_SHORT.c.o.d -o CMakeFiles/cmTC_649ce.dir/SIZEOF_SHORT.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-8kIo2d/SIZEOF_SHORT.c
+Linking C executable cmTC_649ce
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_649ce.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_649ce.dir/SIZEOF_SHORT.c.o -o cmTC_649ce 
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-PWaiB3
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9c64a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9c64a.dir/build.make CMakeFiles/cmTC_9c64a.dir/build
+Building C object CMakeFiles/cmTC_9c64a.dir/SIZEOF_LONG_LONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_9c64a.dir/SIZEOF_LONG_LONG.c.o -MF CMakeFiles/cmTC_9c64a.dir/SIZEOF_LONG_LONG.c.o.d -o CMakeFiles/cmTC_9c64a.dir/SIZEOF_LONG_LONG.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-PWaiB3/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_9c64a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c64a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9c64a.dir/SIZEOF_LONG_LONG.c.o -o cmTC_9c64a 
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-GTw8FY
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2e7af/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2e7af.dir/build.make CMakeFiles/cmTC_2e7af.dir/build
+Building C object CMakeFiles/cmTC_2e7af.dir/SSIZE_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_2e7af.dir/SSIZE_T.c.o -MF CMakeFiles/cmTC_2e7af.dir/SSIZE_T.c.o.d -o CMakeFiles/cmTC_2e7af.dir/SSIZE_T.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-GTw8FY/SSIZE_T.c
+Linking C executable cmTC_2e7af
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e7af.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2e7af.dir/SSIZE_T.c.o -o cmTC_2e7af 
+
+
+

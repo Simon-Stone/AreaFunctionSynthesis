@@ -1,0 +1,348 @@
+Performing C++ SOURCE FILE Test ICONV_SECOND_ARGUMENT_IS_CONST failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-TOvgop
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a0823/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a0823.dir/build.make CMakeFiles/cmTC_a0823.dir/build
+Building CXX object CMakeFiles/cmTC_a0823.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DICONV_SECOND_ARGUMENT_IS_CONST  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_a0823.dir/src.cxx.o -MF CMakeFiles/cmTC_a0823.dir/src.cxx.o.d -o CMakeFiles/cmTC_a0823.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-TOvgop/src.cxx
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-TOvgop/src.cxx:9:5: error: no matching function for call to 'iconv'
+    iconv(conv, &in, &ilen, &out, &olen);
+    ^~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/iconv.h:75:39: note: candidate function not viable: no known conversion from 'const char **' to 'char **' for 2nd argument
+extern __LIBICONV_DLL_EXPORTED size_t iconv (iconv_t __cd, char* * __restrict __inbuf, size_t * __restrict __inbytesleft, char* * __restrict __outbuf, size_t * __restrict __outbytesleft);
+                                      ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a0823.dir/src.cxx.o] Error 1
+make: *** [cmTC_a0823/fast] Error 2
+
+
+Source file was:
+
+  #include <iconv.h>
+  int main(){
+    iconv_t conv = 0;
+    const char* in = 0;
+    size_t ilen = 0;
+    char* out = 0;
+    size_t olen = 0;
+    iconv(conv, &in, &ilen, &out, &olen);
+    return 0;
+  }
+
+
+Performing C++ SOURCE FILE Test HAVE_HASH_MAP failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-eAewBa
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cf170/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cf170.dir/build.make CMakeFiles/cmTC_cf170.dir/build
+Building CXX object CMakeFiles/cmTC_cf170.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_HASH_MAP -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_cf170.dir/src.cxx.o -MF CMakeFiles/cmTC_cf170.dir/src.cxx.o.d -o CMakeFiles/cmTC_cf170.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-eAewBa/src.cxx
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-eAewBa/src.cxx:1:10: fatal error: 'hash_map' file not found
+#include <hash_map>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_cf170.dir/src.cxx.o] Error 1
+make: *** [cmTC_cf170/fast] Error 2
+
+
+Source file was:
+#include <hash_map>
+#include <hash_set>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::hash_map<double*, char*, std::hash<double*>, std::equal_to<double*> > test1;
+    std::hash_set<char*, std::hash<char*>, std::equal_to<char*> > test2;
+return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_TR1_UNORDERED_MAP failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-BPv8qw
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_51316/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_51316.dir/build.make CMakeFiles/cmTC_51316.dir/build
+Building CXX object CMakeFiles/cmTC_51316.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_TR1_UNORDERED_MAP -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_51316.dir/src.cxx.o -MF CMakeFiles/cmTC_51316.dir/src.cxx.o.d -o CMakeFiles/cmTC_51316.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-BPv8qw/src.cxx
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-BPv8qw/src.cxx:1:10: fatal error: 'tr1/unordered_map' file not found
+#include <tr1/unordered_map>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_51316.dir/src.cxx.o] Error 1
+make: *** [cmTC_51316/fast] Error 2
+
+
+Source file was:
+#include <tr1/unordered_map>
+#include <tr1/unordered_set>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::tr1::unordered_map<double*, char*> test1;
+    std::tr1::unordered_set<char*> test2;
+return 0; }
+
+Determining if the include file sys/soundcard.h exists failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-xW4k7d
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_78f91/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_78f91.dir/build.make CMakeFiles/cmTC_78f91.dir/build
+Building C object CMakeFiles/cmTC_78f91.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_78f91.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_78f91.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_78f91.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-xW4k7d/CheckIncludeFile.c
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-xW4k7d/CheckIncludeFile.c:1:10: fatal error: 'sys/soundcard.h' file not found
+#include <sys/soundcard.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_78f91.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_78f91/fast] Error 2
+
+
+
+Determining if the gethostbyname_r exist failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-bSzotS
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c3d1d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c3d1d.dir/build.make CMakeFiles/cmTC_c3d1d.dir/build
+Building C object CMakeFiles/cmTC_c3d1d.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_c3d1d.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c3d1d.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c3d1d.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-bSzotS/CheckSymbolExists.c
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-bSzotS/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'gethostbyname_r'
+  return ((int*)(&gethostbyname_r))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c3d1d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_c3d1d/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <netdb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname_r
+  return ((int*)(&gethostbyname_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_ABI_FORCEDUNWIND failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Pwqe6l
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_41d54/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_41d54.dir/build.make CMakeFiles/cmTC_41d54.dir/build
+Building CXX object CMakeFiles/cmTC_41d54.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_ABI_FORCEDUNWIND  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_41d54.dir/src.cxx.o -MF CMakeFiles/cmTC_41d54.dir/src.cxx.o.d -o CMakeFiles/cmTC_41d54.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Pwqe6l/src.cxx
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Pwqe6l/src.cxx:5:16: error: no type named '__forced_unwind' in namespace '__cxxabiv1'
+ void foo(abi::__forced_unwind&);
+          ~~~~~^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_41d54.dir/src.cxx.o] Error 1
+make: *** [cmTC_41d54/fast] Error 2
+
+
+Source file was:
+#include <cxxabi.h>
+
+
+int main(int argc, char* argv[]) {
+ void foo(abi::__forced_unwind&);
+return 0; }
+
+Performing C++ SOURCE FILE Test wxSIZE_T_IS_NOT_ULONG failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-KMcYDp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1b24c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1b24c.dir/build.make CMakeFiles/cmTC_1b24c.dir/build
+Building CXX object CMakeFiles/cmTC_1b24c.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxSIZE_T_IS_NOT_ULONG -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_1b24c.dir/src.cxx.o -MF CMakeFiles/cmTC_1b24c.dir/src.cxx.o.d -o CMakeFiles/cmTC_1b24c.dir/src.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-KMcYDp/src.cxx
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-KMcYDp/src.cxx:7:49: error: class member cannot be redeclared
+            struct Foo { void foo(size_t); void foo(unsigned long); };
+                                                ^
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-KMcYDp/src.cxx:7:31: note: previous declaration is here
+            struct Foo { void foo(size_t); void foo(unsigned long); };
+                              ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1b24c.dir/src.cxx.o] Error 1
+make: *** [cmTC_1b24c/fast] Error 2
+
+
+Source file was:
+#include <stddef.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+
+            struct Foo { void foo(size_t); void foo(unsigned long); };
+
+            int bar() {
+return 0; }
+
+Determining if the ftime exist failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-nRBtxw
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_35fca/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_35fca.dir/build.make CMakeFiles/cmTC_35fca.dir/build
+Building C object CMakeFiles/cmTC_35fca.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_35fca.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_35fca.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_35fca.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-nRBtxw/CheckSymbolExists.c
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-nRBtxw/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'ftime'
+  return ((int*)(&ftime))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_35fca.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_35fca/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftime
+  return ((int*)(&ftime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the putws exist failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-cK0Hrm
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cf956/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cf956.dir/build.make CMakeFiles/cmTC_cf956.dir/build
+Building C object CMakeFiles/cmTC_cf956.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_cf956.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_cf956.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_cf956.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-cK0Hrm/CheckSymbolExists.c
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-cK0Hrm/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'putws'
+  return ((int*)(&putws))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_cf956.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_cf956/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putws
+  return ((int*)(&putws))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsrctombs exist failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-KgVJ2C
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8a8dc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8a8dc.dir/build.make CMakeFiles/cmTC_8a8dc.dir/build
+Building C object CMakeFiles/cmTC_8a8dc.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_8a8dc.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_8a8dc.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_8a8dc.dir/CheckSymbolExists.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-KgVJ2C/CheckSymbolExists.c
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-KgVJ2C/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'wcsrctombs'; did you mean 'wcsrtombs'?
+  return ((int*)(&wcsrctombs))[argc];
+                  ^~~~~~~~~~
+                  wcsrtombs
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/wchar.h:138:8: note: 'wcsrtombs' declared here
+size_t  wcsrtombs(char * __restrict, const wchar_t ** __restrict, size_t,
+        ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8a8dc.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_8a8dc/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsrctombs
+  return ((int*)(&wcsrctombs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the round exist failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-6s4PFv
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_66160/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_66160.dir/build.make CMakeFiles/cmTC_66160.dir/build
+Building CXX object CMakeFiles/cmTC_66160.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_66160.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_66160.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_66160.dir/CheckSymbolExists.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-6s4PFv/CheckSymbolExists.cxx
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-6s4PFv/CheckSymbolExists.cxx:8:19: error: address of overloaded function 'round' does not match required type 'int'
+  return ((int*)(&round))[argc];
+                  ^~~~~
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/math.h:1663:46: note: candidate function
+inline _LIBCPP_INLINE_VISIBILITY long double round(long double __lcpp_x) _NOEXCEPT
+                                             ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/math.h:1655:46: note: candidate function
+inline _LIBCPP_INLINE_VISIBILITY float       round(float __lcpp_x) _NOEXCEPT
+                                             ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/math.h:476:15: note: candidate function
+extern double round(double);
+              ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/math.h:1675:1: note: candidate template ignored: could not match 'typename std::enable_if<std::is_integral<_A1>::value, double>::type (_A1) noexcept' against 'int'
+round(_A1 __lcpp_x) _NOEXCEPT
+^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_66160.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_66160/fast] Error 2
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef round
+  return ((int*)(&round))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file tr1/type_traits exists failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-eJy4SX
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f1498/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f1498.dir/build.make CMakeFiles/cmTC_f1498.dir/build
+Building CXX object CMakeFiles/cmTC_f1498.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -std=gnu++11 -MD -MT CMakeFiles/cmTC_f1498.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_f1498.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_f1498.dir/CheckIncludeFile.cxx.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-eJy4SX/CheckIncludeFile.cxx
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-eJy4SX/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/type_traits' file not found
+#include <tr1/type_traits>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f1498.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_f1498/fast] Error 2
+
+
+
+Determining if the include file wcstr.h exists failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-NHgEeu
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fb680/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fb680.dir/build.make CMakeFiles/cmTC_fb680.dir/build
+Building C object CMakeFiles/cmTC_fb680.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_fb680.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_fb680.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_fb680.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-NHgEeu/CheckIncludeFile.c
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-NHgEeu/CheckIncludeFile.c:1:10: fatal error: 'wcstr.h' file not found
+#include <wcstr.h>
+         ^~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fb680.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_fb680/fast] Error 2
+
+
+
+Determining if the include file sys/inotify.h exists failed with the following output:
+Change Dir: /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Enmva3
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_900cf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_900cf.dir/build.make CMakeFiles/cmTC_900cf.dir/build
+Building C object CMakeFiles/cmTC_900cf.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D__BSD__ -D__DARWIN__ -D__UNIX__ -DwxUSE_UNIX  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=10.10 -MD -MT CMakeFiles/cmTC_900cf.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_900cf.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_900cf.dir/CheckIncludeFile.c.o -c /Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Enmva3/CheckIncludeFile.c
+/Users/f006pfk/source/SecondVoicePc/wxWidgets-3.2.1/cocoa-build/CMakeFiles/CMakeScratch/TryCompile-Enmva3/CheckIncludeFile.c:1:10: fatal error: 'sys/inotify.h' file not found
+#include <sys/inotify.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_900cf.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_900cf/fast] Error 2
+
+
+
