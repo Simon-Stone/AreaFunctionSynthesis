@@ -12,7 +12,6 @@
 #include "TriangularGlottis.h"
 #include "Dsp.h"
 #include "IirFilter.h"
-//#include "SerialPort.h"
 #include <vector>
 #include <queue>
 #include "wx/msw/winundef.h" // Prevents accidental redefinition by windows files
