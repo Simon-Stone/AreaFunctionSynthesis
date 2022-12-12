@@ -5,7 +5,7 @@
 #include "Tube.h"
 
 // ************************************************************************************
-/// This is the three-parameter 1D area function according to Fant & Bavegard (1997).
+/// This is the 1D area function according to Stone et al. (2018) https://ieeexplore.ieee.org/abstract/document/8336944.
 // ************************************************************************************
 
 class OneDimAreaFunction
@@ -85,7 +85,7 @@ public:
 	void calculateHiResAreaFunction();
 	// Calculates the discrete tube function
 	void calculateOneDimTubeFunction(Tube *tubeFunction, bool alignTubesWithRef = false);
-	// Calcualates a dependent parameter 
+	// Calculates a dependent parameter
 	void calculateParameter(Param *param, int paramIdx);
 	// Calculate the vocal tract area tube function according to the reference AF.
 	void calculateRefTubeFunction(Tube *tubeFunction);
@@ -93,7 +93,7 @@ public:
 
 	void reset();
 
-	// Returns the current paramters of the vocal tract area function
+	// Returns the current parameters of the vocal tract area function
 	void getParameters(Param *currentParams);
 	void setParameters(Param *newParams);
 	
